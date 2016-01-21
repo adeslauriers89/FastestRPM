@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6398B161C51614D001B2DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6398B151C51614D001B2DB1 /* main.m */; };
+		A6398B191C51614D001B2DB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6398B181C51614D001B2DB1 /* AppDelegate.m */; };
+		A6398B1C1C51614D001B2DB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6398B1B1C51614D001B2DB1 /* ViewController.m */; };
+		A6398B1F1C51614D001B2DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6398B1D1C51614D001B2DB1 /* Main.storyboard */; };
+		A6398B211C51614D001B2DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6398B201C51614D001B2DB1 /* Assets.xcassets */; };
+		A6398B241C51614D001B2DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6398B221C51614D001B2DB1 /* LaunchScreen.storyboard */; };
+		A6398B2F1C51614D001B2DB1 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6398B2E1C51614D001B2DB1 /* FastestRPMTests.m */; };
+		A6398B3A1C51614D001B2DB1 /* FastestRPMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6398B391C51614D001B2DB1 /* FastestRPMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6398B2B1C51614D001B2DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6398B091C51614D001B2DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6398B101C51614D001B2DB1;
+			remoteInfo = FastestRPM;
+		};
+		A6398B361C51614D001B2DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6398B091C51614D001B2DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6398B101C51614D001B2DB1;
+			remoteInfo = FastestRPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6398B111C51614D001B2DB1 /* FastestRPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastestRPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6398B151C51614D001B2DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6398B171C51614D001B2DB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6398B181C51614D001B2DB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6398B1A1C51614D001B2DB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6398B1B1C51614D001B2DB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6398B1E1C51614D001B2DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6398B201C51614D001B2DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6398B231C51614D001B2DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6398B251C51614D001B2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6398B2A1C51614D001B2DB1 /* FastestRPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6398B2E1C51614D001B2DB1 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
+		A6398B301C51614D001B2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6398B351C51614D001B2DB1 /* FastestRPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6398B391C51614D001B2DB1 /* FastestRPMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMUITests.m; sourceTree = "<group>"; };
+		A6398B3B1C51614D001B2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6398B0E1C51614D001B2DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6398B271C51614D001B2DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6398B321C51614D001B2DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6398B081C51614D001B2DB1 = {
+			isa = PBXGroup;
+			children = (
+				A6398B131C51614D001B2DB1 /* FastestRPM */,
+				A6398B2D1C51614D001B2DB1 /* FastestRPMTests */,
+				A6398B381C51614D001B2DB1 /* FastestRPMUITests */,
+				A6398B121C51614D001B2DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6398B121C51614D001B2DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6398B111C51614D001B2DB1 /* FastestRPM.app */,
+				A6398B2A1C51614D001B2DB1 /* FastestRPMTests.xctest */,
+				A6398B351C51614D001B2DB1 /* FastestRPMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6398B131C51614D001B2DB1 /* FastestRPM */ = {
+			isa = PBXGroup;
+			children = (
+				A6398B171C51614D001B2DB1 /* AppDelegate.h */,
+				A6398B181C51614D001B2DB1 /* AppDelegate.m */,
+				A6398B1A1C51614D001B2DB1 /* ViewController.h */,
+				A6398B1B1C51614D001B2DB1 /* ViewController.m */,
+				A6398B1D1C51614D001B2DB1 /* Main.storyboard */,
+				A6398B201C51614D001B2DB1 /* Assets.xcassets */,
+				A6398B221C51614D001B2DB1 /* LaunchScreen.storyboard */,
+				A6398B251C51614D001B2DB1 /* Info.plist */,
+				A6398B141C51614D001B2DB1 /* Supporting Files */,
+			);
+			path = FastestRPM;
+			sourceTree = "<group>";
+		};
+		A6398B141C51614D001B2DB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6398B151C51614D001B2DB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6398B2D1C51614D001B2DB1 /* FastestRPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6398B2E1C51614D001B2DB1 /* FastestRPMTests.m */,
+				A6398B301C51614D001B2DB1 /* Info.plist */,
+			);
+			path = FastestRPMTests;
+			sourceTree = "<group>";
+		};
+		A6398B381C51614D001B2DB1 /* FastestRPMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6398B391C51614D001B2DB1 /* FastestRPMUITests.m */,
+				A6398B3B1C51614D001B2DB1 /* Info.plist */,
+			);
+			path = FastestRPMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6398B101C51614D001B2DB1 /* FastestRPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6398B3E1C51614D001B2DB1 /* Build configuration list for PBXNativeTarget "FastestRPM" */;
+			buildPhases = (
+				A6398B0D1C51614D001B2DB1 /* Sources */,
+				A6398B0E1C51614D001B2DB1 /* Frameworks */,
+				A6398B0F1C51614D001B2DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastestRPM;
+			productName = FastestRPM;
+			productReference = A6398B111C51614D001B2DB1 /* FastestRPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6398B291C51614D001B2DB1 /* FastestRPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6398B411C51614D001B2DB1 /* Build configuration list for PBXNativeTarget "FastestRPMTests" */;
+			buildPhases = (
+				A6398B261C51614D001B2DB1 /* Sources */,
+				A6398B271C51614D001B2DB1 /* Frameworks */,
+				A6398B281C51614D001B2DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6398B2C1C51614D001B2DB1 /* PBXTargetDependency */,
+			);
+			name = FastestRPMTests;
+			productName = FastestRPMTests;
+			productReference = A6398B2A1C51614D001B2DB1 /* FastestRPMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6398B341C51614D001B2DB1 /* FastestRPMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6398B441C51614D001B2DB1 /* Build configuration list for PBXNativeTarget "FastestRPMUITests" */;
+			buildPhases = (
+				A6398B311C51614D001B2DB1 /* Sources */,
+				A6398B321C51614D001B2DB1 /* Frameworks */,
+				A6398B331C51614D001B2DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6398B371C51614D001B2DB1 /* PBXTargetDependency */,
+			);
+			name = FastestRPMUITests;
+			productName = FastestRPMUITests;
+			productReference = A6398B351C51614D001B2DB1 /* FastestRPMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6398B091C51614D001B2DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Adam DesLauriers";
+				TargetAttributes = {
+					A6398B101C51614D001B2DB1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A6398B291C51614D001B2DB1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A6398B101C51614D001B2DB1;
+					};
+					A6398B341C51614D001B2DB1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A6398B101C51614D001B2DB1;
+					};
+				};
+			};
+			buildConfigurationList = A6398B0C1C51614D001B2DB1 /* Build configuration list for PBXProject "FastestRPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6398B081C51614D001B2DB1;
+			productRefGroup = A6398B121C51614D001B2DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6398B101C51614D001B2DB1 /* FastestRPM */,
+				A6398B291C51614D001B2DB1 /* FastestRPMTests */,
+				A6398B341C51614D001B2DB1 /* FastestRPMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6398B0F1C51614D001B2DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6398B241C51614D001B2DB1 /* LaunchScreen.storyboard in Resources */,
+				A6398B211C51614D001B2DB1 /* Assets.xcassets in Resources */,
+				A6398B1F1C51614D001B2DB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6398B281C51614D001B2DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6398B331C51614D001B2DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6398B0D1C51614D001B2DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6398B1C1C51614D001B2DB1 /* ViewController.m in Sources */,
+				A6398B191C51614D001B2DB1 /* AppDelegate.m in Sources */,
+				A6398B161C51614D001B2DB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6398B261C51614D001B2DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6398B2F1C51614D001B2DB1 /* FastestRPMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6398B311C51614D001B2DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6398B3A1C51614D001B2DB1 /* FastestRPMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6398B2C1C51614D001B2DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6398B101C51614D001B2DB1 /* FastestRPM */;
+			targetProxy = A6398B2B1C51614D001B2DB1 /* PBXContainerItemProxy */;
+		};
+		A6398B371C51614D001B2DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6398B101C51614D001B2DB1 /* FastestRPM */;
+			targetProxy = A6398B361C51614D001B2DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6398B1D1C51614D001B2DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6398B1E1C51614D001B2DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6398B221C51614D001B2DB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6398B231C51614D001B2DB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6398B3C1C51614D001B2DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6398B3D1C51614D001B2DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6398B3F1C51614D001B2DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastestRPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.FastestRPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6398B401C51614D001B2DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastestRPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.FastestRPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6398B421C51614D001B2DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastestRPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.FastestRPMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastestRPM.app/FastestRPM";
+			};
+			name = Debug;
+		};
+		A6398B431C51614D001B2DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastestRPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.FastestRPMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastestRPM.app/FastestRPM";
+			};
+			name = Release;
+		};
+		A6398B451C51614D001B2DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastestRPMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.FastestRPMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastestRPM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A6398B461C51614D001B2DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastestRPMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.FastestRPMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastestRPM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6398B0C1C51614D001B2DB1 /* Build configuration list for PBXProject "FastestRPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6398B3C1C51614D001B2DB1 /* Debug */,
+				A6398B3D1C51614D001B2DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6398B3E1C51614D001B2DB1 /* Build configuration list for PBXNativeTarget "FastestRPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6398B3F1C51614D001B2DB1 /* Debug */,
+				A6398B401C51614D001B2DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6398B411C51614D001B2DB1 /* Build configuration list for PBXNativeTarget "FastestRPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6398B421C51614D001B2DB1 /* Debug */,
+				A6398B431C51614D001B2DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6398B441C51614D001B2DB1 /* Build configuration list for PBXNativeTarget "FastestRPMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6398B451C51614D001B2DB1 /* Debug */,
+				A6398B461C51614D001B2DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6398B091C51614D001B2DB1 /* Project object */;
+}
