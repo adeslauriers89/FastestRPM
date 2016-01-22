@@ -26,6 +26,7 @@
     [super viewDidLoad];
     
     UIImageView *needleImage = [[UIImageView alloc] init];
+    needleImage.backgroundColor = [UIColor blueColor];
   //  needleImage.center = CGPointMake(203.0, 343.0);
     self.needleImage.transform = CGAffineTransformMakeRotation(2.65);
     
@@ -53,24 +54,25 @@
     if ([sender state] == UIGestureRecognizerStateChanged) {
         if (vel >= 3000.0) {
             self.needleImage.transform = CGAffineTransformMakeRotation(2.2 * M_PI);
+        } else if (vel >= 2500.0){
+            self.needleImage.transform = CGAffineTransformMakeRotation(2.0 * M_PI);
         } else if (vel >= 2000.0){
             self.needleImage.transform = CGAffineTransformMakeRotation(1.8 * M_PI);
+        } else if (vel >= 1500.0){
+            self.needleImage.transform = CGAffineTransformMakeRotation(1.6 * M_PI);
         }else if (vel >= 1000.0){
             self.needleImage.transform = CGAffineTransformMakeRotation(1.4 * M_PI);
+        } else if (vel >= 500.0){
+            self.needleImage.transform = CGAffineTransformMakeRotation(1.2 * M_PI);
         } else if (vel >= 1.0){
             self.needleImage.transform = CGAffineTransformMakeRotation(1.0 * M_PI);
         }
-    }
-
-   else ([sender state] == UIGestureRecognizerStateEnded) {
-        self.needleImage.transform = CGAffineTransformMakeRotation(2.65);
         
-   }
+    }else if ([sender state] == UIGestureRecognizerStateEnded) {
+        self.needleImage.transform = CGAffineTransformMakeRotation(2.65);
 
-
-
-
-
+    }
+}
 
 
 @end
