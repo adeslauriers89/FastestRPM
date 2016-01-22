@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,52 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Speedometer" translatesAutoresizingMaskIntoConstraints="NO" id="CnS-Pe-vzA">
+                                <rect key="frame" x="150" y="184" width="300" height="232"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="o6c-H7-Ypd"/>
+                                    <constraint firstAttribute="width" constant="300" id="xiW-nE-c3H"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="needle" translatesAutoresizingMaskIntoConstraints="NO" id="CQN-BE-uAB">
+                                <rect key="frame" x="191" y="263" width="218" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="7oB-7v-e6T"/>
+                                    <constraint firstAttribute="width" constant="218" id="Sbb-RL-WJt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="CQN-BE-uAB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AxA-fo-ZcR"/>
+                            <constraint firstItem="CnS-Pe-vzA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QXm-Mw-4fu"/>
+                            <constraint firstItem="CnS-Pe-vzA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RSP-s5-FgL"/>
+                            <constraint firstItem="CQN-BE-uAB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="5" id="ce4-3g-GcJ"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WtB-Yo-bZI" appends="YES" id="Ot0-he-J14"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="moveTheNeedle" destination="WtB-Yo-bZI" id="orx-DD-asM"/>
+                        <outlet property="needleImage" destination="CQN-BE-uAB" id="axY-RV-7gt"/>
+                        <outlet property="speedometerImage" destination="CnS-Pe-vzA" id="6tL-Ap-qNo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="WtB-Yo-bZI">
+                    <connections>
+                        <action selector="moveTheNeedle:" destination="BYZ-38-t0r" id="5bn-Ld-6GW"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="380" y="302"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Speedometer" width="150" height="150"/>
+        <image name="needle" width="200" height="200"/>
+    </resources>
 </document>
